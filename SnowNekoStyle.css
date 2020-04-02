@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("CuteChicken.png");
+    background-image: url("/WebsiteImages/Background/CuteChicken.png");
     position: relative;
     box-shadow: inset 0 0 0 1000px hsla(0, 0%, 50%, 0.80);
     position: absolute;
