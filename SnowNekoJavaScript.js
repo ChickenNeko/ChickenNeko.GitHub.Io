@@ -1,2 +1,2 @@
 var date = new Date();
-document.getElementById("demo").innerHTML = date;
+document.getElementById("dt").innerHTML = date;
