@@ -6,7 +6,6 @@ function dateFunction()
 }
 
 window.addEventListener("load", (event) => { i = document.getElementById("para"); i.innerHTML = new Date().toDateString(); })
-
 function myFunction() 
 {
     alert("hello");
