@@ -16,19 +16,18 @@
                 <a href="index.html">Home</a>
                 <a href="IndexHTML.html">HTML</a>
                 <a href="IndexCSS.html">CSS</a>
-                <a class="active" href="IndexJavaScript.html">JavaScript</a>
                 <a href="IndexBlooper.html">Code Blooper</a>
+                <a href="IndexPHP.php">PHP</a>
                 <div class="search-container">
-                    <form action="/action_page.php">
+                    <form action="/index.html">
                       <input type="text" placeholder="Search.." name="search">
-                      <button type="submit"><i class="fa fa-search"></i></button>
                     </form>
                 </div>
             </div>
             <div class="center">
-                <h1>4/8/2020 - First JavaScript update</h1>
-                <p class="p1">Below you can see my current JavaScript update, learning arrow syntax and a couple of other things.</p>
-                <img src="/WebsiteImages/Screenshots/2020-04/Code_qXmsAopLFx.png" alt="Javascript" style="width:50%;height:50%;">
+                <?php
+                echo "Hello World";
+                ?>
             </div>
         </div>
     </div>
